@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin: 20px 20px;
+}
+ 
+.main-flag{
+    max-width: 300px;
+    background-color: rgb(185, 125, 52);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.main-flag__flag{
+    width: 100px;
+}
+.main-flag__flag1{
+    width: 100px;
+}
+.main-flag__flag2{
+    width: 100px;
+}
+.main-flag__flag3{
+    width: 100px;
+}
+.list{
+    display: grid;
+    max-width: 300px;
+    grid-column: 300px;
+    grid-row: 1fr;
+    margin-top: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.list__flag1{
+    border-radius: 10px 10px 0px 0px ;
+    background-color: antiquewhite;
+    align-items: center;
+    display: flex;
+    border: 1px solid black;
+}
+.list__flag1:hover{
+    background-color: rgb(185, 125, 52);
+}
+.list__flag2{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+.list__flag2:hover{
+    background-color: rgb(185, 125, 52);
+}
+.list__flag3{
+    background-color: antiquewhite;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+.list__flag3:hover{
+    background-color: rgb(185, 125, 52);
+}
+
+.block{
+    display: none;
+    width: 100px;
+}
+.block1{
+    display: none;
+    width: 100px;
+}
+
+.heading-block{
+    display: none;
+}
+.heading-block1{
+    display: none;
+}
